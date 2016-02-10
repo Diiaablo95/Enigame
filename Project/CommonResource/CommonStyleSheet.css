@@ -1,0 +1,201 @@
+body {
+	background-color: rgba(0, 0, 30, 0.9);
+	font-family: Verdana, "Times New Roman";
+	color: rgba(98, 163, 236, 1);
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+}
+
+#answerDiv {
+	margin-top : 2%;
+	width : 100%;
+	align-self : center;
+    align-items : center;
+}
+
+#answerDiv form {
+	flex-direction : row;
+    width : 100%;
+}
+
+input[name="answerBox"] {
+	margin-right : 2%;
+    }
+
+!a header{
+	display : flex;
+	/*margin-top: 2%;
+	height: 150px;
+	align-self: center;
+	width: 95%;
+	background-image: url("sfondo_header.jpg");
+	box-shadow: 0 0 35px rgba(255, 255, 255, 0.5);*/
+}
+
+header {
+	margin-top: 2%;
+	height: 150px;
+	align-self: center;
+	background-image: url("sfondo_header.jpg");
+	box-shadow: 0 0 35px rgba(255, 255, 255, 0.5);
+	width: 95%;
+}
+
+label {
+	display: inline-block;
+	float: left;
+	width: 100px;
+}
+
+span.highlight {
+	font-size: x-large;
+	font-family: "Agency FB";
+}
+
+a {
+	color: #5185ef;
+}
+
+#bodyContainer {
+	display: flex;
+	flex-direction: row;
+	width: 95%;
+	padding-top : 2%;
+	align-self: center;
+	margin-top: 1%;
+}
+
+#presentationSection {
+	font-family: monospace;
+	font-size: large;
+	width: 55%;
+	margin-right: 3px;
+}
+
+#gameSection {
+    flex-direction : column;
+    align-self: center;
+    align-items : center;
+    width: 95%;
+    margin-top: 1%;
+    padding-top : 2%;
+}
+
+/*Aggiunto ora per vedere il livello FindDamiano!*/
+#enigmaDiv {
+	margin-top : 3%;
+}
+
+#secondarySection {
+	width: 45%;
+	margin-left: 3px;
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+}
+
+#errorP {
+	margin-top : -2%;
+    margin-bottom : 4%;
+    height : 10px;
+	visibility : hidden;
+    align-self : center;
+}
+
+#logoDiv {
+	height: 100%;
+}
+
+#loginDiv {
+	background-color: rgba(46, 73, 144, 0.6);
+	display: flex;
+	flex-direction: row;
+}
+
+#formDiv {
+	display: flex;
+	width: 90%;
+	flex-direction: column;
+}
+
+#formDiv > p {
+	align-self: center;
+}
+
+#statisticsDiv {
+	display : flex;
+	flex-direction : column;
+	background-color: rgba(46, 73, 144, 0.6);
+	width : 100%; 
+}
+
+#loginButton, #goOnButton {
+	width: 40%;
+	height: 40px;
+}
+
+.genButton {
+	border-radius: 70px;
+	background-color: #3774ec;
+	border: none;
+	color: #c2d2f3;
+}
+
+#goOnButton {
+	margin-top : 3%;
+	width : 20%;
+}
+
+#goOnButton a {
+	text-decoration : none;
+    align-self : center;
+	color: #c2d2f3;
+}
+
+.genButton:hover {
+	cursor: pointer;
+	background-color: #5187f6;
+}
+
+#logoP {
+	width: 10%;
+	margin-right: 2%;
+	margin-top: 2%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+#guestDivButton, #playDivButton {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+	width: 50%;
+	background-color: #3172f6;
+	height: 50px;
+	margin-top: 5%;
+	border-radius: 90px;
+	color: #c2d2f3;
+	margin-bottom : 1%;
+}
+
+#guestDivButton:hover, #playDivButton:hover {
+	background-color: #62a3ec;
+	cursor: pointer;
+}
+
+.roundedCorners {
+	border-radius: 15px;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-centered {
+	align-self: center;
+}

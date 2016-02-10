@@ -1,0 +1,30 @@
+#pageContent {
+    flex-direction : column;
+    align-self: center;
+    align-items : center;
+    width: 95%;
+    margin-top: 1%;
+    padding-top : 2%;
+}
+
+#messageP {
+    margin-top : -2%;
+}
+
+td {
+    width : 90px;
+    height : 90px;
+    text-align : center;
+    font-size : xx-large;
+    color : rgba(0, 0, 255, 0.8);
+    background-color : rgba(00, 255, 0, 0.7);
+}
+
+.emptyCell {
+    background-color : rgba(255, 255, 255, 0.9);
+}
+
+.selectedCell {
+    background-color : rgba(255, 255, 255, 0.7);
+    color : rgba(255, 255, 255, 0.4);
+}

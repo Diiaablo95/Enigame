@@ -1,0 +1,29 @@
+#cassetta {
+    position: relative;
+	left: 50%;
+    top: 50%;
+	margin: -80px 0 0 -240px;
+}
+#player {
+	background: url(background_animated.gif);
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	width: 980px;
+	height: 414px;
+	margin: 20px auto;
+}
+#searchbar{
+	width: 980px;
+	position: relative;
+	left: 50%;
+    top: 50%;
+	margin: -50px 0 0 -490px;
+}
+#customsearch{
+	position: relative;
+	left: 50%;
+    top: 50%;
+	margin: -0px 0 0 -130px;
+}

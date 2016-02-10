@@ -1,0 +1,1 @@
+window.alert("Errore di connessione al database. Riprovare tra poco.");

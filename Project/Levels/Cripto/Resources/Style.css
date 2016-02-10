@@ -1,0 +1,21 @@
+span {
+	font-size: x-large;
+	font-weight: bolder;
+	color: red;
+}
+
+h1 {
+	align-self : center;
+
+p {
+	display : flex;
+	text-align: center;
+}
+
+.leftFloater {
+	justify-content: flex-start;
+}
+
+#cipherButton {
+	margin-top: 10px;
+}

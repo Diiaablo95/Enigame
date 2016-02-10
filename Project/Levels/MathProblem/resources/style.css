@@ -1,0 +1,35 @@
+#functionLevel {text-align:center;
+	padding: 1%;
+    width:94%;
+    position: relative;
+    left: 2%;
+    border-width: 0px;
+	border-style:solid;
+	border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;}
+	
+#functionLevel.enigma{	background-color: rgba(46, 73, 144, 0.6) /*#f42d2d;*/}	
+#functionLevel.question{background-color: #f4782d}
+	
+#functionImage {border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;}
+	
+#logo{position: relative;
+	width:50%;
+	left:25%;}
+	
+#title{position: relative;
+	width:80%;
+	left:10%;}	
+	
+#help{border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+	border-bottom-right-radius: 80px;
+	background-color: #ffffff;}			
+	
+#logopirati{position: relative;
+	width:20%;}
